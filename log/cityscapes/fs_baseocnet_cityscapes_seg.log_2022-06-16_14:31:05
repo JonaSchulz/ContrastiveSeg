@@ -1,0 +1,40 @@
+2022-06-16 14:31:05,747 INFO    [main_contrastive.py, 200] batch size: 2
+2022-06-16 14:31:06,145 INFO    [offset_helper.py, 51] engery/max-distance: 5 engery/min-distance: 0
+2022-06-16 14:31:06,145 INFO    [offset_helper.py, 58] direction/num_classes: 8 scale: 1
+2022-06-16 14:31:06,146 INFO    [offset_helper.py, 65] c4 align axis: False
+2022-06-16 14:31:06,553 INFO    [module_runner.py, 46] BN Type is torchbn.
+2022-06-16 14:31:06,554 INFO    [__init__.py, 17] Using evaluator: StandardEvaluator
+2022-06-16 14:31:06,554 INFO    [running_score.py, 129] 19
+2022-06-16 14:31:07,160 INFO    [projection.py, 12] proj_dim: 8
+2022-06-16 14:31:10,056 INFO    [trainer_contrastive.py, 57] Params Group Method: None
+2022-06-16 14:31:10,060 INFO    [optim_scheduler.py, 96] Use lambda_poly policy with default power 0.9
+2022-06-16 14:31:10,060 INFO    [data_loader.py, 132] use the DefaultLoader for train...
+2022-06-16 14:31:10,061 INFO    [default_loader.py, 38] train 10
+2022-06-16 14:31:10,062 INFO    [data_loader.py, 164] use DefaultLoader for val ...
+2022-06-16 14:31:10,063 INFO    [default_loader.py, 38] val 10
+2022-06-16 14:31:10,063 INFO    [loss_manager.py, 66] use loss: contrast_ce_loss.
+2022-06-16 14:31:10,063 INFO    [loss_contrast.py, 159] ignore_index: -1
+2022-06-16 14:31:10,063 INFO    [trainer_contrastive.py, 86] with_contrast: True, warmup_iters: 0, with_memory: False
+2022-06-16 14:31:10,919 INFO    [data_helper.py, 126] Input keys: ['img']
+2022-06-16 14:31:10,919 INFO    [data_helper.py, 127] Target keys: ['labelmap']
+2022-06-16 14:31:19,661 INFO    [trainer_contrastive.py, 275] Train Epoch: 1	Train Iteration: 10	Time 9.485s / 10iters, (0.948)	Forward Time 2.360s / 10iters, (0.236)	Backward Time 3.977s / 10iters, (0.398)	Loss Time 0.422s / 10iters, (0.042)	Data load 2.726s / 10iters, (0.272616)
+Learning rate = [0.00999797497721687, 0.00999797497721687]	Loss = nan (ave = nan)
+
+2022-06-16 14:31:26,647 INFO    [trainer_contrastive.py, 275] Train Epoch: 3	Train Iteration: 20	Time 6.736s / 10iters, (0.674)	Forward Time 0.759s / 10iters, (0.076)	Backward Time 3.033s / 10iters, (0.303)	Loss Time 0.397s / 10iters, (0.040)	Data load 2.548s / 10iters, (0.254782)
+Learning rate = [0.009995724898451063, 0.009995724898451063]	Loss = nan (ave = nan)
+
+2022-06-16 14:31:33,590 INFO    [trainer_contrastive.py, 275] Train Epoch: 5	Train Iteration: 30	Time 6.664s / 10iters, (0.666)	Forward Time 0.815s / 10iters, (0.082)	Backward Time 3.033s / 10iters, (0.303)	Loss Time 0.365s / 10iters, (0.037)	Data load 2.450s / 10iters, (0.245000)
+Learning rate = [0.00999347476340585, 0.00999347476340585]	Loss = nan (ave = nan)
+
+2022-06-16 14:31:40,632 INFO    [trainer_contrastive.py, 275] Train Epoch: 7	Train Iteration: 40	Time 6.757s / 10iters, (0.676)	Forward Time 0.637s / 10iters, (0.064)	Backward Time 3.033s / 10iters, (0.303)	Loss Time 0.382s / 10iters, (0.038)	Data load 2.705s / 10iters, (0.270469)
+Learning rate = [0.00999122457206574, 0.00999122457206574]	Loss = nan (ave = nan)
+
+2022-06-16 14:31:47,655 INFO    [trainer_contrastive.py, 275] Train Epoch: 9	Train Iteration: 50	Time 6.750s / 10iters, (0.675)	Forward Time 0.716s / 10iters, (0.072)	Backward Time 3.032s / 10iters, (0.303)	Loss Time 0.390s / 10iters, (0.039)	Data load 2.611s / 10iters, (0.261126)
+Learning rate = [0.00998897432441524, 0.00998897432441524]	Loss = nan (ave = nan)
+
+2022-06-16 14:31:54,860 INFO    [trainer_contrastive.py, 275] Train Epoch: 11	Train Iteration: 60	Time 6.923s / 10iters, (0.692)	Forward Time 0.761s / 10iters, (0.076)	Backward Time 3.039s / 10iters, (0.304)	Loss Time 0.348s / 10iters, (0.035)	Data load 2.775s / 10iters, (0.277489)
+Learning rate = [0.009986724020438846, 0.009986724020438846]	Loss = nan (ave = nan)
+
+2022-06-16 14:32:02,230 INFO    [trainer_contrastive.py, 275] Train Epoch: 13	Train Iteration: 70	Time 7.083s / 10iters, (0.708)	Forward Time 0.804s / 10iters, (0.080)	Backward Time 3.034s / 10iters, (0.303)	Loss Time 0.348s / 10iters, (0.035)	Data load 2.897s / 10iters, (0.289723)
+Learning rate = [0.009984473660121045, 0.009984473660121045]	Loss = nan (ave = nan)
+

@@ -1,0 +1,11 @@
+{
+  "embedding_visualizer": {
+    "method": "umap",
+    "num_samples": 10000,
+    "plot_dir": "./CompleteRunData/",
+    "save_npy": false
+  },
+  "iters": 0,
+  "source_dir": "./feature_vis/",
+  "source_img": "aachen_000014_000019_leftImg8bit"
+}

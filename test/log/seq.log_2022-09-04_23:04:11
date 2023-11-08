@@ -1,0 +1,62 @@
+2022-09-04 23:04:11,166 INFO    [main_contrastive_seq.py, 200] batch size: 2
+2022-09-04 23:04:11,542 INFO    [offset_helper.py, 51] engery/max-distance: 5 engery/min-distance: 0
+2022-09-04 23:04:11,542 INFO    [offset_helper.py, 58] direction/num_classes: 8 scale: 1
+2022-09-04 23:04:11,542 INFO    [offset_helper.py, 65] c4 align axis: False
+2022-09-04 23:04:11,761 INFO    [module_runner.py, 46] BN Type is torchbn.
+2022-09-04 23:04:11,761 INFO    [__init__.py, 17] Using evaluator: StandardEvaluator
+2022-09-04 23:04:11,761 INFO    [running_score.py, 129] 19
+2022-09-04 23:04:12,383 INFO    [projection.py, 12] proj_dim: 8
+2022-09-04 23:04:14,606 INFO    [trainer_contrastive_seq.py, 62] Params Group Method: None
+2022-09-04 23:04:14,610 INFO    [optim_scheduler.py, 96] Use lambda_poly policy with default power 0.9
+2022-09-04 23:04:14,610 INFO    [data_loader.py, 132] use the DefaultLoader for train...
+2022-09-04 23:04:14,611 INFO    [default_loader.py, 39] train 10
+2022-09-04 23:04:14,611 INFO    [data_loader.py, 164] use DefaultLoader for val ...
+2022-09-04 23:04:14,611 INFO    [default_loader.py, 39] val 10
+2022-09-04 23:04:14,612 INFO    [loss_manager.py, 73] use loss: contrast_ce_loss_seq.
+2022-09-04 23:04:14,612 INFO    [loss_contrast.py, 666] ignore_index: -1
+2022-09-04 23:04:14,612 INFO    [trainer_contrastive_seq.py, 91] with_contrast: True, warmup_iters: 0, with_memory: False
+2022-09-04 23:04:15,442 INFO    [data_helper.py, 126] Input keys: ['img']
+2022-09-04 23:04:15,443 INFO    [data_helper.py, 127] Target keys: ['labelmap']
+2022-09-04 23:04:24,116 INFO    [trainer_contrastive_seq.py, 317] Train Epoch: 0	Train Iteration: 5	Time 9.501s / 5iters, (1.900)	Forward Time 2.554s / 5iters, (0.511)	Backward Time 5.027s / 5iters, (1.005)	Loss Time 0.695s / 5iters, (0.139)	Data load 1.221s / 5iters, (0.244193)
+Learning rate = [6.314458674893553e-05, 6.314458674893553e-05]	Loss = 2.08317161 (ave = 1.64928020)
+
+2022-09-04 23:04:30,594 INFO    [trainer_contrastive_seq.py, 317] Train Epoch: 1	Train Iteration: 10	Time 6.370s / 5iters, (1.274)	Forward Time 0.621s / 5iters, (0.124)	Backward Time 3.660s / 5iters, (0.732)	Loss Time 0.804s / 5iters, (0.161)	Data load 1.283s / 5iters, (0.256563)
+Learning rate = [1.2589254117941671e-05, 1.2589254117941671e-05]	Loss = 5.02283859 (ave = 1.89675503)
+
+2022-09-04 23:04:30,709 INFO    [trainer_contrastive_seq.py, 469] Pretraining complete. Starting classifier training
+2022-09-04 23:04:30,712 INFO    [trainer_contrastive_seq.py, 114] Params Group Method: None
+2022-09-04 23:04:30,716 INFO    [optim_scheduler.py, 96] Use lambda_poly policy with default power 0.9
+2022-09-04 23:04:33,949 INFO    [trainer_contrastive_seq.py, 317] Train Epoch: 2	Train Iteration: 5	Time 3.229s / 5iters, (0.646)	Forward Time 0.739s / 5iters, (0.148)	Backward Time 0.684s / 5iters, (0.137)	Loss Time 0.671s / 5iters, (0.134)	Data load 1.133s / 5iters, (0.226640)
+Learning rate = [8.180521460508584e-05, 8.180521460508584e-05]	Loss = 3.08149052 (ave = 3.02723775)
+
+2022-09-04 23:04:37,369 INFO    [trainer_contrastive_seq.py, 317] Train Epoch: 3	Train Iteration: 10	Time 3.285s / 5iters, (0.657)	Forward Time 0.548s / 5iters, (0.110)	Backward Time 0.673s / 5iters, (0.135)	Loss Time 0.831s / 5iters, (0.166)	Data load 1.231s / 5iters, (0.246154)
+Learning rate = [5.838837929199803e-05, 5.838837929199803e-05]	Loss = 2.93286037 (ave = 2.96881618)
+
+2022-09-04 23:04:38,205 INFO    [trainer_contrastive_seq.py, 367] 0 images processed
+
+2022-09-04 23:04:41,961 INFO    [base.py, 84] Performance 0.0 -> 0.0031951366273447993
+2022-09-04 23:04:46,386 INFO    [trainer_contrastive_seq.py, 438] Test Time 4.463s, (0.893)	Loss 2.94379840
+
+2022-09-04 23:04:46,393 INFO    [base.py, 33] Result for seg
+2022-09-04 23:04:46,395 INFO    [base.py, 49] Mean IOU: 0.0031951366273447993
+
+2022-09-04 23:04:46,396 INFO    [base.py, 50] Pixel ACC: 0.03132904303004425
+
+2022-09-04 23:04:49,741 INFO    [trainer_contrastive_seq.py, 317] Train Epoch: 4	Train Iteration: 15	Time 3.193s / 5iters, (0.639)	Forward Time 0.550s / 5iters, (0.110)	Backward Time 0.673s / 5iters, (0.135)	Loss Time 0.823s / 5iters, (0.165)	Data load 1.146s / 5iters, (0.229135)
+Learning rate = [3.3838346190164985e-05, 3.3838346190164985e-05]	Loss = 3.11763501 (ave = 2.96375747)
+
+2022-09-04 23:04:53,118 INFO    [trainer_contrastive_seq.py, 317] Train Epoch: 5	Train Iteration: 20	Time 3.252s / 5iters, (0.650)	Forward Time 0.537s / 5iters, (0.107)	Backward Time 0.673s / 5iters, (0.135)	Loss Time 0.831s / 5iters, (0.166)	Data load 1.209s / 5iters, (0.241871)
+Learning rate = [6.746414238367822e-06, 6.746414238367822e-06]	Loss = 2.85795403 (ave = 2.91850810)
+
+2022-09-04 23:04:53,253 INFO    [data_loader.py, 164] use DefaultLoader for val ...
+2022-09-04 23:04:53,253 INFO    [default_loader.py, 39] val 10
+2022-09-04 23:04:53,960 INFO    [trainer_contrastive_seq.py, 367] 0 images processed
+
+2022-09-04 23:04:57,549 INFO    [base.py, 84] Performance 0.0031951366273447993 -> 0.005864321517341745
+2022-09-04 23:05:02,099 INFO    [trainer_contrastive_seq.py, 438] Test Time 4.152s, (0.830)	Loss 2.88693514
+
+2022-09-04 23:05:02,100 INFO    [base.py, 33] Result for seg
+2022-09-04 23:05:02,101 INFO    [base.py, 49] Mean IOU: 0.005864321517341745
+
+2022-09-04 23:05:02,102 INFO    [base.py, 50] Pixel ACC: 0.02094073566109686
+

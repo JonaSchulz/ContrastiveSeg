@@ -1,0 +1,7 @@
+2022-07-08 19:04:44,849 INFO    [main_contrastive.py, 200] batch size: 6
+2022-07-08 19:04:45,098 INFO    [offset_helper.py, 51] engery/max-distance: 5 engery/min-distance: 0
+2022-07-08 19:04:45,098 INFO    [offset_helper.py, 58] direction/num_classes: 8 scale: 1
+2022-07-08 19:04:45,098 INFO    [offset_helper.py, 65] c4 align axis: False
+2022-07-08 19:04:45,670 INFO    [module_runner.py, 46] BN Type is torchbn.
+2022-07-08 19:04:46,046 INFO    [projection.py, 12] proj_dim: 256
+2022-07-08 19:04:48,225 INFO    [module_runner.py, 87] Loading checkpoint from /work/scratch/schulz/ContrastiveSeg/checkpoints/cityscapes/base_max_performance.pth...

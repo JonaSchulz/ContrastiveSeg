@@ -1,0 +1,18 @@
+2022-07-08 14:48:30,040 INFO    [main_contrastive.py, 200] batch size: 6
+2022-07-08 14:48:32,600 INFO    [offset_helper.py, 51] engery/max-distance: 5 engery/min-distance: 0
+2022-07-08 14:48:32,600 INFO    [offset_helper.py, 58] direction/num_classes: 8 scale: 1
+2022-07-08 14:48:32,600 INFO    [offset_helper.py, 65] c4 align axis: False
+2022-07-08 14:48:34,094 INFO    [module_runner.py, 46] BN Type is torchbn.
+2022-07-08 14:48:34,094 INFO    [__init__.py, 17] Using evaluator: StandardEvaluator
+2022-07-08 14:48:34,094 INFO    [running_score.py, 129] 19
+2022-07-08 14:48:37,336 INFO    [trainer_contrastive.py, 61] Params Group Method: None
+2022-07-08 14:48:37,342 INFO    [optim_scheduler.py, 96] Use lambda_poly policy with default power 0.9
+2022-07-08 14:48:37,342 INFO    [data_loader.py, 132] use the DefaultLoader for train...
+2022-07-08 14:48:39,518 INFO    [default_loader.py, 38] train 2975
+2022-07-08 14:48:39,520 INFO    [data_loader.py, 164] use DefaultLoader for val ...
+2022-07-08 14:48:39,559 ERROR   [default_loader.py, 138] Label Path: /work/scratch/schulz/cityscapes/val/label/frankfurt_000001_009854_leftImg8bit.png /work/scratch/schulz/cityscapes/val/image/frankfurt_000001_009854_leftImg8bit.png not exists.
+2022-07-08 14:48:39,560 INFO    [default_loader.py, 38] val 73
+2022-07-08 14:48:39,560 INFO    [loss_manager.py, 66] use loss: fs_ce_loss.
+2022-07-08 14:48:39,560 INFO    [trainer_contrastive.py, 90] with_contrast: False, warmup_iters: 0, with_memory: False
+2022-07-08 14:48:44,251 INFO    [data_helper.py, 126] Input keys: ['img']
+2022-07-08 14:48:44,251 INFO    [data_helper.py, 127] Target keys: ['labelmap']

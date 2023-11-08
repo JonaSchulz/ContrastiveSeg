@@ -1,0 +1,3 @@
+2022-06-15 22:52:59,367 INFO    [offset_helper.py, 51] engery/max-distance: 5 engery/min-distance: 0
+2022-06-15 22:52:59,367 INFO    [offset_helper.py, 58] direction/num_classes: 8 scale: 1
+2022-06-15 22:52:59,367 INFO    [offset_helper.py, 65] c4 align axis: False

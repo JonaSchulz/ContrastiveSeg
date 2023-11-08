@@ -1,0 +1,8 @@
+{
+  "embedding_visualizer": {
+    "method": "umap",
+    "num_samples": "all",
+    "plot_dir": "./feature_plots"
+  },
+  "iters": 0
+}

@@ -1,0 +1,7 @@
+2022-06-17 18:52:26,109 INFO    [main_contrastive.py, 200] batch size: 2
+2022-06-17 18:52:26,646 INFO    [offset_helper.py, 51] engery/max-distance: 5 engery/min-distance: 0
+2022-06-17 18:52:26,647 INFO    [offset_helper.py, 58] direction/num_classes: 8 scale: 1
+2022-06-17 18:52:26,647 INFO    [offset_helper.py, 65] c4 align axis: False
+2022-06-17 18:52:27,325 INFO    [module_runner.py, 46] BN Type is torchbn.
+2022-06-17 18:52:28,100 INFO    [projection.py, 12] proj_dim: 8
+2022-06-17 18:52:30,421 INFO    [module_runner.py, 87] Loading checkpoint from ./test/test.pth...

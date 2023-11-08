@@ -1,0 +1,38 @@
+2022-06-16 14:19:25,679 INFO    [main_contrastive.py, 200] batch size: 2
+2022-06-16 14:19:25,907 INFO    [offset_helper.py, 51] engery/max-distance: 5 engery/min-distance: 0
+2022-06-16 14:19:25,907 INFO    [offset_helper.py, 58] direction/num_classes: 8 scale: 1
+2022-06-16 14:19:25,907 INFO    [offset_helper.py, 65] c4 align axis: False
+2022-06-16 14:19:26,274 INFO    [module_runner.py, 46] BN Type is torchbn.
+2022-06-16 14:19:26,274 INFO    [__init__.py, 17] Using evaluator: StandardEvaluator
+2022-06-16 14:19:26,274 INFO    [running_score.py, 129] 19
+2022-06-16 14:19:26,869 INFO    [projection.py, 12] proj_dim: 8
+2022-06-16 14:19:29,041 INFO    [trainer_contrastive.py, 57] Params Group Method: None
+2022-06-16 14:19:29,045 INFO    [optim_scheduler.py, 96] Use lambda_poly policy with default power 0.9
+2022-06-16 14:19:29,045 INFO    [data_loader.py, 132] use the DefaultLoader for train...
+2022-06-16 14:19:29,146 INFO    [default_loader.py, 38] train 2975
+2022-06-16 14:19:29,147 INFO    [data_loader.py, 164] use DefaultLoader for val ...
+2022-06-16 14:19:29,149 ERROR   [default_loader.py, 138] Label Path: /home/jona/cityscapes/val/label/frankfurt_000001_009854_leftImg8bit.png /home/jona/cityscapes/val/image/frankfurt_000001_009854_leftImg8bit.png not exists.
+2022-06-16 14:19:29,149 INFO    [default_loader.py, 38] val 73
+2022-06-16 14:19:29,149 INFO    [loss_manager.py, 66] use loss: contrast_ce_loss.
+2022-06-16 14:19:29,149 INFO    [loss_contrast.py, 159] ignore_index: -1
+2022-06-16 14:19:29,149 INFO    [trainer_contrastive.py, 86] with_contrast: True, warmup_iters: 0, with_memory: False
+2022-06-16 14:19:30,257 INFO    [data_helper.py, 126] Input keys: ['img']
+2022-06-16 14:19:30,258 INFO    [data_helper.py, 127] Target keys: ['labelmap']
+2022-06-16 14:19:38,622 INFO    [trainer_contrastive.py, 275] Train Epoch: 0	Train Iteration: 10	Time 9.468s / 10iters, (0.947)	Forward Time 3.040s / 10iters, (0.304)	Backward Time 3.924s / 10iters, (0.392)	Loss Time 0.365s / 10iters, (0.036)	Data load 2.139s / 10iters, (0.213948)
+Learning rate = [0.00999797497721687, 0.00999797497721687]	Loss = nan (ave = nan)
+
+2022-06-16 14:19:43,878 INFO    [trainer_contrastive.py, 275] Train Epoch: 0	Train Iteration: 20	Time 5.257s / 10iters, (0.526)	Forward Time 0.695s / 10iters, (0.069)	Backward Time 2.984s / 10iters, (0.298)	Loss Time 0.401s / 10iters, (0.040)	Data load 1.177s / 10iters, (0.117670)
+Learning rate = [0.009995724898451063, 0.009995724898451063]	Loss = nan (ave = nan)
+
+2022-06-16 14:19:49,148 INFO    [trainer_contrastive.py, 275] Train Epoch: 0	Train Iteration: 30	Time 5.271s / 10iters, (0.527)	Forward Time 0.716s / 10iters, (0.072)	Backward Time 2.983s / 10iters, (0.298)	Loss Time 0.391s / 10iters, (0.039)	Data load 1.180s / 10iters, (0.118039)
+Learning rate = [0.00999347476340585, 0.00999347476340585]	Loss = nan (ave = nan)
+
+2022-06-16 14:19:54,463 INFO    [trainer_contrastive.py, 275] Train Epoch: 0	Train Iteration: 40	Time 5.315s / 10iters, (0.531)	Forward Time 0.766s / 10iters, (0.077)	Backward Time 2.984s / 10iters, (0.298)	Loss Time 0.384s / 10iters, (0.038)	Data load 1.181s / 10iters, (0.118075)
+Learning rate = [0.00999122457206574, 0.00999122457206574]	Loss = nan (ave = nan)
+
+2022-06-16 14:19:59,753 INFO    [trainer_contrastive.py, 275] Train Epoch: 0	Train Iteration: 50	Time 5.290s / 10iters, (0.529)	Forward Time 0.754s / 10iters, (0.075)	Backward Time 2.985s / 10iters, (0.298)	Loss Time 0.374s / 10iters, (0.037)	Data load 1.178s / 10iters, (0.117775)
+Learning rate = [0.00998897432441524, 0.00998897432441524]	Loss = nan (ave = nan)
+
+2022-06-16 14:20:05,033 INFO    [trainer_contrastive.py, 275] Train Epoch: 0	Train Iteration: 60	Time 5.279s / 10iters, (0.528)	Forward Time 0.719s / 10iters, (0.072)	Backward Time 2.982s / 10iters, (0.298)	Loss Time 0.401s / 10iters, (0.040)	Data load 1.176s / 10iters, (0.117643)
+Learning rate = [0.009986724020438846, 0.009986724020438846]	Loss = nan (ave = nan)
+

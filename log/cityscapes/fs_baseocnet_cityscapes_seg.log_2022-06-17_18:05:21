@@ -1,0 +1,21 @@
+2022-06-17 18:05:21,640 INFO    [main_contrastive.py, 200] batch size: 2
+2022-06-17 18:05:22,012 INFO    [offset_helper.py, 51] engery/max-distance: 5 engery/min-distance: 0
+2022-06-17 18:05:22,012 INFO    [offset_helper.py, 58] direction/num_classes: 8 scale: 1
+2022-06-17 18:05:22,012 INFO    [offset_helper.py, 65] c4 align axis: False
+2022-06-17 18:05:22,495 INFO    [module_runner.py, 46] BN Type is torchbn.
+2022-06-17 18:05:23,092 INFO    [projection.py, 12] proj_dim: 8
+2022-06-17 18:05:25,251 INFO    [module_runner.py, 87] Loading checkpoint from ./test/test.pth...
+2022-06-17 18:05:25,709 INFO    [data_loader.py, 164] use DefaultLoader for val ...
+2022-06-17 18:05:25,710 INFO    [default_loader.py, 38] val 10
+2022-06-17 18:05:25,717 INFO    [tester.py, 101] save dir none
+2022-06-17 18:05:27,878 INFO    [tester.py, 199]    1/  10 label map generated
+2022-06-17 18:05:28,130 INFO    [tester.py, 199]    2/  10 label map generated
+2022-06-17 18:05:28,366 INFO    [tester.py, 199]    3/  10 label map generated
+2022-06-17 18:05:28,554 INFO    [tester.py, 199]    4/  10 label map generated
+2022-06-17 18:05:28,794 INFO    [tester.py, 199]    5/  10 label map generated
+2022-06-17 18:05:28,949 INFO    [tester.py, 199]    6/  10 label map generated
+2022-06-17 18:05:29,175 INFO    [tester.py, 199]    7/  10 label map generated
+2022-06-17 18:05:29,324 INFO    [tester.py, 199]    8/  10 label map generated
+2022-06-17 18:05:29,547 INFO    [tester.py, 199]    9/  10 label map generated
+2022-06-17 18:05:29,696 INFO    [tester.py, 199]   10/  10 label map generated
+2022-06-17 18:05:29,819 INFO    [tester.py, 289] Test Time 3.997s

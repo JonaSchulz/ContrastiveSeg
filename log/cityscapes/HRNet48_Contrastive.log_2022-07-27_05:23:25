@@ -1,0 +1,21 @@
+2022-07-27 05:23:25,499 INFO    [main_contrastive.py, 200] batch size: 6
+2022-07-27 05:23:27,120 INFO    [offset_helper.py, 51] engery/max-distance: 5 engery/min-distance: 0
+2022-07-27 05:23:27,120 INFO    [offset_helper.py, 58] direction/num_classes: 8 scale: 1
+2022-07-27 05:23:27,120 INFO    [offset_helper.py, 65] c4 align axis: False
+2022-07-27 05:23:28,926 INFO    [module_runner.py, 46] BN Type is torchbn.
+2022-07-27 05:23:28,926 INFO    [__init__.py, 17] Using evaluator: StandardEvaluator
+2022-07-27 05:23:28,927 INFO    [running_score.py, 129] 19
+2022-07-27 05:23:29,691 INFO    [projection.py, 12] proj_dim: 256
+2022-07-27 05:23:33,607 INFO    [module_runner.py, 87] Loading checkpoint from /work/scratch/schulz/ContrastiveSeg/checkpoints/cityscapes/HRNet48_Contrastive/base_latest.pth...
+2022-07-27 05:23:37,755 INFO    [trainer_contrastive.py, 67] Params Group Method: None
+2022-07-27 05:23:37,760 INFO    [optim_scheduler.py, 96] Use lambda_poly policy with default power 0.9
+2022-07-27 05:23:37,761 INFO    [data_loader.py, 132] use the DefaultLoader for train...
+2022-07-27 05:23:38,750 INFO    [default_loader.py, 39] train 2975
+2022-07-27 05:23:38,751 INFO    [data_loader.py, 164] use DefaultLoader for val ...
+2022-07-27 05:23:38,776 ERROR   [default_loader.py, 139] Label Path: /work/scratch/schulz/cityscapes/val/label/frankfurt_000001_009854_leftImg8bit.png /work/scratch/schulz/cityscapes/val/image/frankfurt_000001_009854_leftImg8bit.png not exists.
+2022-07-27 05:23:38,776 INFO    [default_loader.py, 39] val 73
+2022-07-27 05:23:38,776 INFO    [loss_manager.py, 69] use loss: contrast_ce_loss.
+2022-07-27 05:23:38,776 INFO    [loss_contrast.py, 182] ignore_index: -1
+2022-07-27 05:23:38,777 INFO    [trainer_contrastive.py, 96] with_contrast: True, warmup_iters: 0, with_memory: False
+2022-07-27 05:23:41,100 INFO    [data_helper.py, 126] Input keys: ['img']
+2022-07-27 05:23:41,100 INFO    [data_helper.py, 127] Target keys: ['labelmap']

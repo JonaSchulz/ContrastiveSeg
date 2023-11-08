@@ -1,0 +1,19 @@
+2022-06-16 20:31:11,733 INFO    [main_contrastive.py, 200] batch size: 2
+2022-06-16 20:31:12,257 INFO    [offset_helper.py, 51] engery/max-distance: 5 engery/min-distance: 0
+2022-06-16 20:31:12,257 INFO    [offset_helper.py, 58] direction/num_classes: 8 scale: 1
+2022-06-16 20:31:12,257 INFO    [offset_helper.py, 65] c4 align axis: False
+2022-06-16 20:31:12,872 INFO    [module_runner.py, 46] BN Type is torchbn.
+2022-06-16 20:31:12,873 INFO    [__init__.py, 17] Using evaluator: StandardEvaluator
+2022-06-16 20:31:12,873 INFO    [running_score.py, 129] 19
+2022-06-16 20:31:13,687 INFO    [projection.py, 12] proj_dim: 8
+2022-06-16 20:31:15,990 INFO    [trainer_contrastive.py, 57] Params Group Method: None
+2022-06-16 20:31:16,071 INFO    [optim_scheduler.py, 96] Use lambda_poly policy with default power 0.9
+2022-06-16 20:31:16,072 INFO    [data_loader.py, 132] use the DefaultLoader for train...
+2022-06-16 20:31:16,073 INFO    [default_loader.py, 38] train 10
+2022-06-16 20:31:16,074 INFO    [data_loader.py, 164] use DefaultLoader for val ...
+2022-06-16 20:31:16,075 INFO    [default_loader.py, 38] val 10
+2022-06-16 20:31:16,075 INFO    [loss_manager.py, 66] use loss: contrast_ce_loss.
+2022-06-16 20:31:16,075 INFO    [loss_contrast.py, 159] ignore_index: -1
+2022-06-16 20:31:16,076 INFO    [trainer_contrastive.py, 86] with_contrast: True, warmup_iters: 0, with_memory: False
+2022-06-16 20:31:16,920 INFO    [data_helper.py, 126] Input keys: ['img']
+2022-06-16 20:31:16,921 INFO    [data_helper.py, 127] Target keys: ['labelmap']

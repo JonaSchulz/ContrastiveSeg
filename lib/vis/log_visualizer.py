@@ -1,0 +1,98 @@
+#!/usr/bin/env python
+#-*- coding:utf-8 -*-
+# Author: Donny You(youansheng@gmail.com)
+# Visualize the log files.
+
+
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+
+import re
+import numpy as np
+import matplotlib.pyplot as plt
+
+from torch.utils.tensorboard import SummaryWriter
+
+runs = ["HRNet48_Contrastive_before"]
+
+class LogVisualizer(object):
+
+    def vis_loss(self, log_file, run):
+        with open(log_file, 'r') as file_stream:
+            train_ax = list()
+            train_ay = list()
+            test_ax = list()
+            test_ay = list()
+            test_mark = 0
+
+            for line in file_stream.readlines():
+                if 'Iteration' in line:
+                    m = re.match(r'.*Iteration:(.*)\tTime.*', line)
+                    iter = int(m.group(1))
+                    train_ax.append(iter)
+                    test_mark = iter
+
+                elif 'Loss =' in line:
+                    m = re.match(r'.*Loss = (.*) \(.*', line)
+                    loss = float(m.group(1))
+                    train_ay.append(loss)
+
+                elif 'TestLoss' in line:
+                    m = re.match(r'.*TestLoss = (.*)', line)
+                    loss = float(m.group(1))
+                    test_ax.append(test_mark)
+                    test_ay.append(loss)
+
+                else:
+                    continue
+
+        writer = SummaryWriter(log_dir="../../CompleteRunData/" + run + "_Run1/loss")
+        for iter, loss in zip(train_ax, train_ay):
+            writer.add_scalar("Loss_Total", loss, iter)
+        writer.flush()
+        writer.close()
+
+        train_ax = np.array(train_ax)
+        train_ay = np.array(train_ay)
+        test_ax = np.array(test_ax)
+        test_ay = np.array(test_ay)
+        plt.plot(train_ax, train_ay, label='Train Loss')
+        plt.plot(test_ax, test_ay, label='Test Loss')
+        plt.legend()
+        plt.show()
+
+    def vis_acc(self, log_file):
+        with open(log_file, 'r') as file_stream:
+            acc_ax = list()
+            acc_ay = list()
+            test_mark = 0
+
+            for line in file_stream.readlines():
+                if 'Iteration' in line and 'Train' in line:
+                    m = re.match(r'.*Iteration:(.*)Learning.*', line)
+                    iter = int(m.group(1))
+                    test_mark = iter
+
+                if 'Accuracy' in line:
+                    m = re.match(r'.*Accuracy = (.*)', line)
+                    loss = float(m.group(1))
+                    acc_ax.append(test_mark)
+                    acc_ay.append(loss)
+
+                else:
+                    continue
+
+        plt.plot(acc_ax, acc_ay, label='Acc')
+        plt.legend()
+        plt.show()
+
+
+if __name__ == "__main__":
+    #if len(sys.argv) != 2:
+    #    print >> sys.stderr, "Need one args: log_file"
+    #    exit(0)
+
+    log_visualizer = LogVisualizer()
+    for run in runs:
+        log_visualizer.vis_loss("../../CompleteRunData/" + run + "_Run1/" + run + ".0_err.log", run)

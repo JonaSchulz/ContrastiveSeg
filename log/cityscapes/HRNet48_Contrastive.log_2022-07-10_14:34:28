@@ -1,0 +1,85 @@
+2022-07-10 14:34:28,686 INFO    [main_contrastive.py, 200] batch size: 6
+2022-07-10 14:34:29,677 INFO    [offset_helper.py, 51] engery/max-distance: 5 engery/min-distance: 0
+2022-07-10 14:34:29,677 INFO    [offset_helper.py, 58] direction/num_classes: 8 scale: 1
+2022-07-10 14:34:29,677 INFO    [offset_helper.py, 65] c4 align axis: False
+2022-07-10 14:34:31,030 INFO    [module_runner.py, 46] BN Type is torchbn.
+2022-07-10 14:34:31,463 INFO    [projection.py, 12] proj_dim: 256
+2022-07-10 14:34:33,689 INFO    [module_runner.py, 87] Loading checkpoint from /work/scratch/schulz/ContrastiveSeg/checkpoints/cityscapes/HRNet48_Contrastive/base_max_performance.pth...
+2022-07-10 14:34:33,928 INFO    [data_loader.py, 164] use DefaultLoader for val ...
+2022-07-10 14:34:33,950 ERROR   [default_loader.py, 138] Label Path: /work/scratch/schulz/cityscapes/val/label/frankfurt_000001_009854_leftImg8bit.png /work/scratch/schulz/cityscapes/val/image/frankfurt_000001_009854_leftImg8bit.png not exists.
+2022-07-10 14:34:33,950 INFO    [default_loader.py, 38] val 73
+2022-07-10 14:34:33,954 INFO    [tester.py, 101] save dir /work/scratch/schulz/ContrastiveSeg/TestOutput/HRNet48_Contrastive
+2022-07-10 14:34:42,010 INFO    [tester.py, 199]    1/  76 label map generated
+2022-07-10 14:34:42,138 INFO    [tester.py, 199]    2/  76 label map generated
+2022-07-10 14:34:42,255 INFO    [tester.py, 199]    3/  76 label map generated
+2022-07-10 14:34:42,370 INFO    [tester.py, 199]    4/  76 label map generated
+2022-07-10 14:34:43,359 INFO    [tester.py, 199]    5/  76 label map generated
+2022-07-10 14:34:43,484 INFO    [tester.py, 199]    6/  76 label map generated
+2022-07-10 14:34:43,602 INFO    [tester.py, 199]    7/  76 label map generated
+2022-07-10 14:34:43,722 INFO    [tester.py, 199]    8/  76 label map generated
+2022-07-10 14:34:44,706 INFO    [tester.py, 199]    9/  76 label map generated
+2022-07-10 14:34:44,822 INFO    [tester.py, 199]   10/  76 label map generated
+2022-07-10 14:34:44,942 INFO    [tester.py, 199]   11/  76 label map generated
+2022-07-10 14:34:45,061 INFO    [tester.py, 199]   12/  76 label map generated
+2022-07-10 14:34:46,036 INFO    [tester.py, 199]   13/  76 label map generated
+2022-07-10 14:34:46,155 INFO    [tester.py, 199]   14/  76 label map generated
+2022-07-10 14:34:46,275 INFO    [tester.py, 199]   15/  76 label map generated
+2022-07-10 14:34:46,394 INFO    [tester.py, 199]   16/  76 label map generated
+2022-07-10 14:34:47,364 INFO    [tester.py, 199]   17/  76 label map generated
+2022-07-10 14:34:47,482 INFO    [tester.py, 199]   18/  76 label map generated
+2022-07-10 14:34:47,604 INFO    [tester.py, 199]   19/  76 label map generated
+2022-07-10 14:34:47,725 INFO    [tester.py, 199]   20/  76 label map generated
+2022-07-10 14:34:48,704 INFO    [tester.py, 199]   21/  76 label map generated
+2022-07-10 14:34:48,823 INFO    [tester.py, 199]   22/  76 label map generated
+2022-07-10 14:34:48,941 INFO    [tester.py, 199]   23/  76 label map generated
+2022-07-10 14:34:49,061 INFO    [tester.py, 199]   24/  76 label map generated
+2022-07-10 14:34:50,042 INFO    [tester.py, 199]   25/  76 label map generated
+2022-07-10 14:34:50,161 INFO    [tester.py, 199]   26/  76 label map generated
+2022-07-10 14:34:50,282 INFO    [tester.py, 199]   27/  76 label map generated
+2022-07-10 14:34:50,402 INFO    [tester.py, 199]   28/  76 label map generated
+2022-07-10 14:34:51,381 INFO    [tester.py, 199]   29/  76 label map generated
+2022-07-10 14:34:51,501 INFO    [tester.py, 199]   30/  76 label map generated
+2022-07-10 14:34:51,621 INFO    [tester.py, 199]   31/  76 label map generated
+2022-07-10 14:34:51,744 INFO    [tester.py, 199]   32/  76 label map generated
+2022-07-10 14:34:52,720 INFO    [tester.py, 199]   33/  76 label map generated
+2022-07-10 14:34:52,843 INFO    [tester.py, 199]   34/  76 label map generated
+2022-07-10 14:34:52,964 INFO    [tester.py, 199]   35/  76 label map generated
+2022-07-10 14:34:53,086 INFO    [tester.py, 199]   36/  76 label map generated
+2022-07-10 14:34:54,065 INFO    [tester.py, 199]   37/  76 label map generated
+2022-07-10 14:34:54,184 INFO    [tester.py, 199]   38/  76 label map generated
+2022-07-10 14:34:54,308 INFO    [tester.py, 199]   39/  76 label map generated
+2022-07-10 14:34:54,429 INFO    [tester.py, 199]   40/  76 label map generated
+2022-07-10 14:34:55,399 INFO    [tester.py, 199]   41/  76 label map generated
+2022-07-10 14:34:55,518 INFO    [tester.py, 199]   42/  76 label map generated
+2022-07-10 14:34:55,636 INFO    [tester.py, 199]   43/  76 label map generated
+2022-07-10 14:34:55,755 INFO    [tester.py, 199]   44/  76 label map generated
+2022-07-10 14:34:56,736 INFO    [tester.py, 199]   45/  76 label map generated
+2022-07-10 14:34:56,855 INFO    [tester.py, 199]   46/  76 label map generated
+2022-07-10 14:34:56,976 INFO    [tester.py, 199]   47/  76 label map generated
+2022-07-10 14:34:57,096 INFO    [tester.py, 199]   48/  76 label map generated
+2022-07-10 14:34:58,075 INFO    [tester.py, 199]   49/  76 label map generated
+2022-07-10 14:34:58,195 INFO    [tester.py, 199]   50/  76 label map generated
+2022-07-10 14:34:58,316 INFO    [tester.py, 199]   51/  76 label map generated
+2022-07-10 14:34:58,435 INFO    [tester.py, 199]   52/  76 label map generated
+2022-07-10 14:34:59,408 INFO    [tester.py, 199]   53/  76 label map generated
+2022-07-10 14:34:59,530 INFO    [tester.py, 199]   54/  76 label map generated
+2022-07-10 14:34:59,650 INFO    [tester.py, 199]   55/  76 label map generated
+2022-07-10 14:34:59,773 INFO    [tester.py, 199]   56/  76 label map generated
+2022-07-10 14:35:00,748 INFO    [tester.py, 199]   57/  76 label map generated
+2022-07-10 14:35:00,868 INFO    [tester.py, 199]   58/  76 label map generated
+2022-07-10 14:35:00,990 INFO    [tester.py, 199]   59/  76 label map generated
+2022-07-10 14:35:01,113 INFO    [tester.py, 199]   60/  76 label map generated
+2022-07-10 14:35:02,103 INFO    [tester.py, 199]   61/  76 label map generated
+2022-07-10 14:35:02,227 INFO    [tester.py, 199]   62/  76 label map generated
+2022-07-10 14:35:02,349 INFO    [tester.py, 199]   63/  76 label map generated
+2022-07-10 14:35:02,472 INFO    [tester.py, 199]   64/  76 label map generated
+2022-07-10 14:35:03,450 INFO    [tester.py, 199]   65/  76 label map generated
+2022-07-10 14:35:03,571 INFO    [tester.py, 199]   66/  76 label map generated
+2022-07-10 14:35:03,692 INFO    [tester.py, 199]   67/  76 label map generated
+2022-07-10 14:35:03,814 INFO    [tester.py, 199]   68/  76 label map generated
+2022-07-10 14:35:04,792 INFO    [tester.py, 199]   69/  76 label map generated
+2022-07-10 14:35:04,914 INFO    [tester.py, 199]   70/  76 label map generated
+2022-07-10 14:35:05,031 INFO    [tester.py, 199]   71/  76 label map generated
+2022-07-10 14:35:05,150 INFO    [tester.py, 199]   72/  76 label map generated
+2022-07-10 14:35:08,204 INFO    [tester.py, 199]   73/  76 label map generated
+2022-07-10 14:35:08,285 INFO    [tester.py, 290] Test Time 34.267s

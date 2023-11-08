@@ -1,0 +1,8 @@
+2022-07-29 16:48:23,754 INFO    [main_contrastive.py, 200] batch size: 6
+2022-07-29 16:48:24,889 INFO    [offset_helper.py, 51] engery/max-distance: 5 engery/min-distance: 0
+2022-07-29 16:48:24,889 INFO    [offset_helper.py, 58] direction/num_classes: 8 scale: 1
+2022-07-29 16:48:24,889 INFO    [offset_helper.py, 65] c4 align axis: False
+2022-07-29 16:48:27,458 INFO    [module_runner.py, 46] BN Type is torchbn.
+2022-07-29 16:48:27,458 INFO    [__init__.py, 17] Using evaluator: StandardEvaluator
+2022-07-29 16:48:27,458 INFO    [running_score.py, 129] 19
+2022-07-29 16:48:28,232 INFO    [projection.py, 12] proj_dim: 256

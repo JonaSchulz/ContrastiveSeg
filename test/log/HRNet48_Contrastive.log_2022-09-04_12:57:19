@@ -1,0 +1,17 @@
+2022-09-04 12:57:19,309 INFO    [main_contrastive.py, 200] batch size: 2
+2022-09-04 12:57:20,162 INFO    [offset_helper.py, 51] engery/max-distance: 5 engery/min-distance: 0
+2022-09-04 12:57:20,162 INFO    [offset_helper.py, 58] direction/num_classes: 8 scale: 1
+2022-09-04 12:57:20,162 INFO    [offset_helper.py, 65] c4 align axis: False
+2022-09-04 12:57:27,398 INFO    [module_runner.py, 46] BN Type is torchbn.
+2022-09-04 12:57:27,398 INFO    [__init__.py, 17] Using evaluator: StandardEvaluator
+2022-09-04 12:57:27,398 INFO    [running_score.py, 129] 19
+2022-09-04 12:57:28,144 INFO    [projection.py, 12] proj_dim: 8
+2022-09-04 12:57:33,572 INFO    [trainer_contrastive.py, 67] Params Group Method: None
+2022-09-04 12:57:33,580 INFO    [optim_scheduler.py, 96] Use lambda_poly policy with default power 0.9
+2022-09-04 12:57:33,580 INFO    [data_loader.py, 132] use the DefaultLoader for train...
+2022-09-04 12:57:33,583 INFO    [default_loader.py, 39] train 10
+2022-09-04 12:57:33,585 INFO    [data_loader.py, 164] use DefaultLoader for val ...
+2022-09-04 12:57:33,587 INFO    [default_loader.py, 39] val 10
+2022-09-04 12:57:33,587 INFO    [loss_manager.py, 72] use loss: au_ce_loss.
+2022-09-04 12:57:33,587 INFO    [loss_au.py, 194] ignore_index: -1
+2022-09-04 12:57:33,588 ERROR   [configer.py, 195] loss_au.py, 22 KeyError: ('loss', 'au_loss', 'alpha').

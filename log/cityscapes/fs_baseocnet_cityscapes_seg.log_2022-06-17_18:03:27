@@ -1,0 +1,58 @@
+2022-06-17 18:03:27,021 INFO    [main_contrastive.py, 200] batch size: 2
+2022-06-17 18:03:27,408 INFO    [offset_helper.py, 51] engery/max-distance: 5 engery/min-distance: 0
+2022-06-17 18:03:27,408 INFO    [offset_helper.py, 58] direction/num_classes: 8 scale: 1
+2022-06-17 18:03:27,408 INFO    [offset_helper.py, 65] c4 align axis: False
+2022-06-17 18:03:27,785 INFO    [module_runner.py, 46] BN Type is torchbn.
+2022-06-17 18:03:27,785 INFO    [__init__.py, 17] Using evaluator: StandardEvaluator
+2022-06-17 18:03:27,786 INFO    [running_score.py, 129] 19
+2022-06-17 18:03:28,382 INFO    [projection.py, 12] proj_dim: 8
+2022-06-17 18:03:30,793 INFO    [trainer_contrastive.py, 57] Params Group Method: None
+2022-06-17 18:03:30,797 INFO    [optim_scheduler.py, 96] Use lambda_poly policy with default power 0.9
+2022-06-17 18:03:30,797 INFO    [data_loader.py, 132] use the DefaultLoader for train...
+2022-06-17 18:03:30,799 INFO    [default_loader.py, 38] train 10
+2022-06-17 18:03:30,800 INFO    [data_loader.py, 164] use DefaultLoader for val ...
+2022-06-17 18:03:30,800 INFO    [default_loader.py, 38] val 10
+2022-06-17 18:03:30,800 INFO    [loss_manager.py, 66] use loss: contrast_ce_loss.
+2022-06-17 18:03:30,800 INFO    [loss_contrast.py, 159] ignore_index: -1
+2022-06-17 18:03:30,801 INFO    [trainer_contrastive.py, 86] with_contrast: True, warmup_iters: 0, with_memory: False
+2022-06-17 18:03:31,734 INFO    [data_helper.py, 126] Input keys: ['img']
+2022-06-17 18:03:31,734 INFO    [data_helper.py, 127] Target keys: ['labelmap']
+2022-06-17 18:03:43,243 INFO    [trainer_contrastive.py, 275] Train Epoch: 1	Train Iteration: 10	Time 12.352s / 10iters, (1.235)	Forward Time 2.870s / 10iters, (0.287)	Backward Time 6.175s / 10iters, (0.618)	Loss Time 0.429s / 10iters, (0.043)	Data load 2.878s / 10iters, (0.287752)
+Learning rate = [0.007254178469372199, 0.007254178469372199]	Loss = 0.54106849 (ave = 4.20333363)
+
+2022-06-17 18:03:43,964 INFO    [trainer_contrastive.py, 321] 0 images processed
+
+2022-06-17 18:03:46,224 INFO    [base.py, 84] Performance 0.0 -> 0.055559838871007156
+2022-06-17 18:03:51,289 INFO    [trainer_contrastive.py, 394] Test Time 2.877s, (0.575)	Loss 5.76156399
+
+2022-06-17 18:03:51,297 INFO    [base.py, 33] Result for seg
+2022-06-17 18:03:51,299 INFO    [base.py, 49] Mean IOU: 0.055559838871007156
+
+2022-06-17 18:03:51,300 INFO    [base.py, 50] Pixel ACC: 0.5351820278835978
+
+2022-06-17 18:04:00,388 INFO    [trainer_contrastive.py, 275] Train Epoch: 3	Train Iteration: 20	Time 8.869s / 10iters, (0.887)	Forward Time 0.651s / 10iters, (0.065)	Backward Time 5.167s / 10iters, (0.517)	Loss Time 0.401s / 10iters, (0.040)	Data load 2.651s / 10iters, (0.265053)
+Learning rate = [0.004053631698615512, 0.004053631698615512]	Loss = 1.51817262 (ave = 3.10336797)
+
+2022-06-17 18:04:01,077 INFO    [trainer_contrastive.py, 321] 0 images processed
+
+2022-06-17 18:04:07,018 INFO    [trainer_contrastive.py, 394] Test Time 2.792s, (0.558)	Loss 2.88207591
+
+2022-06-17 18:04:07,018 INFO    [base.py, 33] Result for seg
+2022-06-17 18:04:07,020 INFO    [base.py, 49] Mean IOU: 0.0071119401041298625
+
+2022-06-17 18:04:07,021 INFO    [base.py, 50] Pixel ACC: 0.12801492187433752
+
+2022-06-17 18:04:16,018 INFO    [trainer_contrastive.py, 275] Train Epoch: 5	Train Iteration: 30	Time 8.766s / 10iters, (0.877)	Forward Time 0.808s / 10iters, (0.081)	Backward Time 5.164s / 10iters, (0.516)	Loss Time 0.392s / 10iters, (0.039)	Data load 2.402s / 10iters, (0.240214)
+Learning rate = [0.00046837194216121523, 0.00046837194216121523]	Loss = 1.52119625 (ave = 3.53535669)
+
+2022-06-17 18:04:16,119 INFO    [data_loader.py, 164] use DefaultLoader for val ...
+2022-06-17 18:04:16,120 INFO    [default_loader.py, 38] val 10
+2022-06-17 18:04:16,729 INFO    [trainer_contrastive.py, 321] 0 images processed
+
+2022-06-17 18:04:22,745 INFO    [trainer_contrastive.py, 394] Test Time 2.621s, (0.524)	Loss 2.20620611
+
+2022-06-17 18:04:22,746 INFO    [base.py, 33] Result for seg
+2022-06-17 18:04:22,747 INFO    [base.py, 49] Mean IOU: 0.014060957013661314
+
+2022-06-17 18:04:22,748 INFO    [base.py, 50] Pixel ACC: 0.16103922462711043
+

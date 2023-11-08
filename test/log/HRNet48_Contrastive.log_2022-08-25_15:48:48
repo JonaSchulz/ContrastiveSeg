@@ -1,0 +1,22 @@
+2022-08-25 15:48:48,364 INFO    [main_contrastive.py, 200] batch size: 2
+2022-08-25 15:48:48,711 INFO    [offset_helper.py, 51] engery/max-distance: 5 engery/min-distance: 0
+2022-08-25 15:48:48,711 INFO    [offset_helper.py, 58] direction/num_classes: 8 scale: 1
+2022-08-25 15:48:48,711 INFO    [offset_helper.py, 65] c4 align axis: False
+2022-08-25 15:48:53,859 INFO    [module_runner.py, 46] BN Type is torchbn.
+2022-08-25 15:48:53,859 INFO    [__init__.py, 17] Using evaluator: StandardEvaluator
+2022-08-25 15:48:53,859 INFO    [running_score.py, 129] 19
+2022-08-25 15:48:54,456 INFO    [projection.py, 12] proj_dim: 8
+2022-08-25 15:48:56,669 INFO    [trainer_contrastive.py, 67] Params Group Method: None
+2022-08-25 15:48:56,674 INFO    [optim_scheduler.py, 96] Use lambda_poly policy with default power 0.9
+2022-08-25 15:48:56,674 INFO    [data_loader.py, 132] use the DefaultLoader for train...
+2022-08-25 15:48:56,674 INFO    [default_loader.py, 39] train 10
+2022-08-25 15:48:56,675 INFO    [data_loader.py, 164] use DefaultLoader for val ...
+2022-08-25 15:48:56,675 INFO    [default_loader.py, 39] val 10
+2022-08-25 15:48:56,675 INFO    [loss_manager.py, 72] use loss: au_ce_loss.
+2022-08-25 15:48:56,675 INFO    [loss_au.py, 183] ignore_index: -1
+2022-08-25 15:48:56,676 INFO    [trainer_contrastive.py, 96] with_contrast: True, warmup_iters: 0, with_memory: False
+2022-08-25 15:48:57,559 INFO    [data_helper.py, 126] Input keys: ['img']
+2022-08-25 15:48:57,559 INFO    [data_helper.py, 127] Target keys: ['labelmap']
+2022-08-25 15:49:03,340 INFO    [trainer_contrastive.py, 308] Train Epoch: 0	Train Iteration: 5	Time 6.661s / 5iters, (1.332)	Forward Time 1.413s / 5iters, (0.283)	Backward Time 3.611s / 5iters, (0.722)	Loss Time 0.193s / 5iters, (0.039)	Data load 1.437s / 5iters, (0.287472)
+Learning rate = [9.397949325887223e-05, 9.397949325887223e-05]	Loss = 0.14043880 (ave = -0.37327476)
+
